@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'quickSandBold';
+    src: url('/fonts/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'quickSandBold';
+    src: url('/fonts/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-size: normal;
+}
+
+body { 
+    min-height:100vh;
+    min-width: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.choices { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.textbox { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 60px;
+    height: 200px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction:column;
+    padding: 0px 50px 0px 50px;
+    
+}
+
+.textbox-text, .results, .choice{
+    font-family: "quickSandBold", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+img { 
+    height: 200px;
+    width : 200px; 
+}
+
+button { 
+    background-color: transparent;
+    border: 10px solid black;
+    border-radius: 60px;
+    
+}
+
+button:hover { 
+    transform: rotate(0.75turn);
+}
+
+.attribution-box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+}   
+
+.attribution-text { 
+    font-family: 'quickSandBold', sans-serif;
+    font-size: 15px;
+}
+
+a { 
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    text-decoration:underline wavy;
+}
+
+footer { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
